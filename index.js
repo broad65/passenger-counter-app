@@ -1,15 +1,28 @@
 //document.getElementById("count").innerText = 5
 
-let countEl = document.get.ElementById("count-el")
+let countEl = document.getElementById("count-el")
 
 console.log(countEl)
 
 let count = 0
 
 function Increment() { 
-   
-    count = count + 1
-
+    count += 1
     countEl.innerText = count
 
+}
+
+function save() {
+    console.log(count)
+
+}
+
+let saveEl  = document. getElementById("save-el")
+
+
+console.log(saveEl)
+
+function () {
+    let countStr = count + " - "
+    saveEl.textcontent += countSep
 }
